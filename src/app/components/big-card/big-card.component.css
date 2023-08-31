@@ -27,3 +27,33 @@
     text-align: justify;
 }
 
+
+
+@media (max-width: 768px) { 
+    .container_big_card  h1{
+        font-size: 2rem;
+    }
+    .container_big_card > p{
+        font-size: 1rem;
+    }
+ }
+
+ @media (max-width: 1024px) { 
+    .container_big_card  h1{
+        font-size: 3rem;
+    }
+    .container_big_card > p{
+        font-size: 1.5rem;
+    }
+ }
+ @media (max-width: 426px) {
+    
+    .container_big_card  h1{
+    
+        font-size: 1.5rem;
+    }
+    .container_big_card  p{
+    
+        font-size: 1rem;
+    }
+}

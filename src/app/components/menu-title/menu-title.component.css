@@ -12,3 +12,25 @@ color: #ffffff;
     margin: 20px 0 20px 0;
     border-color: #444444;
 }
+
+@media (max-width: 1440px) { 
+    .container_meunu_title > h1{
+        font-size: 8rem;
+    }
+ }
+
+ @media (max-width: 1024px) { 
+    .container_meunu_title > h1{
+        font-size: 5rem;
+    }
+ }
+ @media (max-width: 768px) { 
+    .container_meunu_title > h1{
+        font-size: 4rem;
+    }
+ }
+ @media (max-width: 426px) { 
+    .container_meunu_title > h1{
+        font-size: 2rem;
+    }
+ }

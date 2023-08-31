@@ -35,4 +35,13 @@
 
 .container-menu-bar .lado_direito i{
     font-size: 2rem;
+    color: rgb(104, 119, 235);
+}
+
+@media (max-width: 426px) {
+    
+    .container-menu-bar{
+        flex-direction: column;
+        gap: 1rem;
+    }
 }

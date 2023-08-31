@@ -28,3 +28,32 @@
     color: #393939;
 }
 
+
+
+@media (max-width: 1024px) { 
+    .container-smal-card p{
+        color: #ffffff;
+        font-size: 1rem;
+    
+    }
+}
+
+@media (max-width: 768px) { 
+    .container-smal-card p{
+        color: #ffffff;
+        font-size: 1.3rem;
+    
+    }
+}
+
+@media (max-width: 426px) { 
+    .container-smal-card p{
+        color: #ffffff;
+        font-size: 1rem;
+    
+    }
+    .container-smal-card{
+        grid-template-columns: 1fr;
+    }
+   
+}

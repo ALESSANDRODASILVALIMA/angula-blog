@@ -16,3 +16,10 @@ main .smal-card{
 main .smal-card hr{
     border-color: #3b3b3b;
 }
+
+
+ @media (max-width: 768px) { 
+    main{
+        grid-template-columns: 1fr ;
+    }
+ }
