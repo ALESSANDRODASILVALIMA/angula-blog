@@ -1,12 +1,15 @@
 .container-smal-card{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    gap: 1rem;
     padding: 1rem;
     align-items: center;
 }
 
 .container-smal-card img{
     width: 100%;   
+    border-radius: 1rem;
+    
 }
 
 .container-smal-card  .data-paragrafo{

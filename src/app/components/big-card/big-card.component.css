@@ -4,7 +4,9 @@
     padding: 2rem;
 }
 .container_big_card img{
-    border: 5px solid rgb(255, 255, 255);
+    width: 100%;
+    min-width: 100%;
+    /* border: 5px solid rgb(255, 255, 255); */
     border-radius: 1rem;
     margin: 10px 0 10px 0;
 }
