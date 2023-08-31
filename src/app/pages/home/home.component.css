@@ -1,0 +1,10 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main .smal-card{
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+}

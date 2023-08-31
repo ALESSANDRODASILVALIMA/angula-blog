@@ -1,0 +1,27 @@
+.container_big_card{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.container_big_card img{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    margin: 10px 0 10px 0;
+}
+.container_big_card > .data_big_card{
+    color: #393939;
+    margin-bottom: 10px;
+}
+
+.container_big_card  h1{
+    color: #ffffff;
+    margin-bottom: 10px;
+    font-size: 5rem;
+}
+
+.container_big_card > p{
+    color: #7d7c7c;
+    font-size: 2rem;
+    text-align: justify;
+}
+

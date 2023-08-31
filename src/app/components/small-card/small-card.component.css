@@ -1,0 +1,27 @@
+.container-smal-card{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 1rem;
+    align-items: center;
+}
+
+.container-smal-card img{
+    width: 100%;   
+}
+
+.container-smal-card  .data-paragrafo{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-smal-card p{
+    color: #ffffff;
+    font-size: 2rem;
+
+}
+
+.container-smal-card .data-small-card{
+    
+    color: #393939;
+}
+
