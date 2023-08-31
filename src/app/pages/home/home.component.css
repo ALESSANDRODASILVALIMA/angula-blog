@@ -11,4 +11,8 @@ main .smal-card{
     margin: 2rem;
    border-radius: 1rem;
     border: 5px solid rgb(255, 255, 255);
+   
+}
+main .smal-card hr{
+    border-color: #3b3b3b;
 }

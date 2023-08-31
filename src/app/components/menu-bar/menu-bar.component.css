@@ -1,0 +1,38 @@
+.container-menu-bar{
+    color: rgb(255, 255, 255);
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3rem 0 3rem;
+    margin-top: .5rem;
+    font-size: 1.4rem;
+    
+}
+.container-menu-bar .lado_esquerdo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-menu-bar .lado_esquerdo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container-menu-bar .lado_direito{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.container-menu-bar .lado_direito a{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.container-menu-bar .lado_direito i{
+    font-size: 2rem;
+}
