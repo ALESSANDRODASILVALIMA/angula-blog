@@ -3,14 +3,15 @@
 <app-menu-title [titulo]="title"></app-menu-title>
 <main>
     <div class="big-card">
-        <app-big-card></app-big-card>
+        <app-big-card [img]="img_big_card" [titulo]="titulo_big_card"  [texto]="texto_big_card" [id]="'0'"></app-big-card>
     </div>
+
     <div class="smal-card">
-        <app-small-card></app-small-card>
+        <app-small-card [img]="img[0]" [texto]="texto_small_card[0]" [id]="'1'"></app-small-card>
         <hr/>
-        <app-small-card></app-small-card>
+        <app-small-card [img]="img[1]" [texto]="texto_small_card[1]" [id]="'2'"></app-small-card>
         <hr/>
-        <app-small-card></app-small-card>
+        <app-small-card [img]="img[2]" [texto]="texto_small_card[2]" [id]="'3'"></app-small-card>
         <hr/>
     </div>
 

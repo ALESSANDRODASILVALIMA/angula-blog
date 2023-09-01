@@ -1,0 +1,13 @@
+.sobre{
+    color: rgb(255, 255, 255);
+    margin: 3rem;
+}
+
+.sobre h1{
+    font-size: 3rem;
+}
+
+.sobre p{
+    font-size: 2rem;
+    text-align: justify;
+}

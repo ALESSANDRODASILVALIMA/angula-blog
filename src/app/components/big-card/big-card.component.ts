@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-big-card',
@@ -7,7 +7,14 @@ import { Component } from '@angular/core';
 })
 export class BigCardComponent {
   data: Date = new Date();
+  @Input() img:string = "";
+  @Input() titulo:string = "";
+  @Input() texto:string = "";
+  @Input() id:string = "0"
+  
   constructor(){
     console.log(this.data)
   }
+  
+
 }
